@@ -32,7 +32,7 @@ body {
   font-size: 20px;
   justify-content: space-between;
   padding-top: auto;
-  margin-left: auto;
+  margin-left: -3px;
   max-width: 100%;
   border-radius: 50px;
   }
@@ -90,28 +90,30 @@ a {
   /*Screen Rezolutions*/
 
 @media sreen  and (max-width: 768px) {
+  .logo{
+    font-weight: medium;
+    }
+  
   .nav {
     height: 65px;
     background-color: darkslategray;
     color: white;
     display: flex;
     align-items: center;
-    padding: 0px 20px ;
-    font-size: 25px;
+    padding: 0px 10px ;
+    font-size: 20px;
     justify-content: space-between;
     padding-top: 0;
     align-items: center;
   }
 
   .listItem{
-    display: inline;
+    display: flex;
     margin-right: 10px;
     font-size: 18px;
     color: lightgray;
   }
-}
 
-@media sreen  and (max-width: 768px) {
   .btn{
     display: block;
     background: yellowgreen;
@@ -124,6 +126,23 @@ a {
     font-weight: bolder;
     position: relative;
   } 
+
+    .bottom{
+      height: 200px;
+      background-color: black;
+      display: flex;
+      margin-bottom: 0;
+      width: 100%;
+      bottom: 0;
+      color: white;
+      justify-content: center;
+      position: fixed;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      .bottom p{
+      font-size: medium;
+      }
 }
 
 @media screen and (max-width: 480px) {
