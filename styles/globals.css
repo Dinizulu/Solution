@@ -15,7 +15,11 @@ body {
   flex-direction: column;
 }
 
-.nav{
+.logo{
+  font-weight: bolder;
+  }
+
+.navvigation{
   height: 60px;
   background-color: darkslategray;
   color: white;
@@ -25,6 +29,15 @@ body {
   font-size: 20px;
   justify-content: space-between;
   padding-top: 0%;
+  }
+
+  .listItem{
+    display: inline;
+    margin-right: 30px;
+    font-size: 16px;
+    color: lightgray;
+    cursor: pointer;
+    font-weight: bold;
   }
 
 a {
