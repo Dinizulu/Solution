@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
 
         <div className={styles.tittle}>
-          <Image src="/profpic.png" width="200" height="200" alt="My Picture" layout="fill" />
+          <Image src="/profpic.png" width="200" height="200" alt="My Picture"  />
         </div>
 
         <p className={styles.parag}>
