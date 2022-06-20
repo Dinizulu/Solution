@@ -3,7 +3,10 @@ body {
   background: #f2f2f2;
   color: white;
   font-family: "Nunito";
+  background-image: -moz-linear-gradient(145deg,purple,blue,lime);
+  padding: 0px 0px 0px 0px;
 }
+/*Navigation Bar and Footer styling*/
 
 .container {
   width: 100%;
@@ -25,10 +28,13 @@ body {
   color: white;
   display: flex;
   align-items: center;
-  padding: 0 100px;
+  padding: 0 80px;
   font-size: 20px;
   justify-content: space-between;
-  padding-top: 0%;
+  padding-top: auto;
+  margin-left: auto;
+  max-width: 100%;
+  border-radius: 50px;
   }
 
   .listItem{
@@ -74,13 +80,36 @@ a {
   background-color: black;
   display: flex;
   margin-bottom: 0;
-  width: 100%;
+  width: 110%;
   bottom: 0;
   color: white;
   justify-content: center;
   position: fixed;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  /*Screen Rezolutions*/
+
+@media sreen  and (max-width: 768px) {
+  .nav {
+    height: 65px;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px ;
+    font-size: 25px;
+    justify-content: space-between;
+    padding-top: 0;
+    align-items: center;
+  }
+
+  .listItem{
+    display: inline;
+    margin-right: 10px;
+    font-size: 18px;
+    color: lightgray;
+  }
+}
 
 @media sreen  and (max-width: 768px) {
   .btn{

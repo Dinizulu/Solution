@@ -2,7 +2,7 @@
 
 /*Introduction Home styles*/
 .card{
-top: -20px;
+top: -0px;
 justify-content: center;
 max-width: 90%;
 background: rgba(150,144,138,0.5);
@@ -16,9 +16,10 @@ position: relative;
 }
 
 .card h1{
-margin-left: 50px;
+margin-left: 20px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .tittle{
 text-align: center;
 color: antiquewhite;
@@ -28,11 +29,11 @@ position: relative;
 text-decoration: underline;
 justify-content: center;
 top: 0;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .intro{
 font-size: large;
-margin: 0;
+margin: 0px;
 position: relative;
 color: white;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -43,6 +44,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .position{
 justify-content: space-between;
 }
+
 .pop{
 background: darkslategray;
 width: 73%;
@@ -58,8 +60,7 @@ font-size: medium;
 text-align: justify;
 color: white;
 position: relative;
-font-family: Georgia, 'Times New Roman', Times, serif;
-padding: 7px 15px 10px 130px;
+padding: 7px 15px 10px 100px;
 }
 
 .paraW{
@@ -69,20 +70,6 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 @media screen and (max-width: 768px) {
-
-.nav {
-  height: 65px;
-  background-color: darkslategray;
-  color: white;
-  display: flex;
-  align-items: center;
-  padding: 0px 20px ;
-  font-size: 25px;
-  justify-content: space-between;
-  padding-top: 0;
-  align-items: center;
-}
-
 .card{
   justify-content: center;
   max-width: 90%;
@@ -98,7 +85,6 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 .card h1{
-  font-family: 'Times New Roman', Times, serif;
   padding-left: 50px;
   padding-right: 0px;
   position: static;
@@ -106,19 +92,11 @@ font-family: 'Courier New', Courier, monospace;
  
 }
 
-.listItem{
-  display: inline;
-  margin-right: 10px;
-  font-size: 18px;
-  color: lightgray;
-  cursor: pointer;font-family: 'Times New Roman', Times, serif;
-}
 .intro{
 font-size: large;
 margin: 0;
 position: relative;
 color: white;
-font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .bottom{
