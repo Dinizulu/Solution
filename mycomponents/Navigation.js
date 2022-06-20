@@ -12,7 +12,7 @@ const Navigation = () => {
                 </li>
                 <li className="listItem">
                     <Link href="https://www.linkedin.com/in/jabulane-dinizulu-a5a650143/">
-                        <Image src="/Linkedin_logo_initials.png" width="60" height="45"/>
+                        <span className="size"><Image src="/Linkedin_logo_initials.png" width="60" height="45" alt="Google image" /></span>
                     </Link>
                 </li>
             </ul>
