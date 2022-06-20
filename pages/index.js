@@ -4,18 +4,11 @@ import Image from 'next/image'
 import Popup from 'reactjs-popup';
 import Aboutme from './components/Aboutme';
 import Why from './components/Why';
-import Navigation from '../mycomponents/Navigation';
-import Footer from '../mycomponents/Footer';
-
 
 export default function Home() {
 
   return (
-    <div className={styles.container}>
-
-      <div className={styles.nav}>
-
-      </div>
+    <div>
 
       <div className={styles.card}>
 
@@ -45,12 +38,6 @@ export default function Home() {
         </div>
         </Popup>
       </div>
-
-      <footer className= {styles.bottom}>
-
-          <p>All rights reserved &copy; 2022</p>
-
-      </footer>
 
     </div>
   )

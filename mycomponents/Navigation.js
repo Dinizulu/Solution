@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Navigation = () => {
     return(
-        <nav className="navigation">
+        <nav className="nav">
             <Link href="/" className="logo">SovTech Challenge</Link>
 
             <ul className="list">

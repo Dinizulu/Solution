@@ -38,18 +38,7 @@ color: white;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.bottom{
-height: 50px;
-background-color: black;
-display: flex;
-margin-bottom: 0;
-width: 100%;
-bottom: 0;
-color: white;
-justify-content: center;
-position: fixed;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 .position{
 justify-content: space-between;
